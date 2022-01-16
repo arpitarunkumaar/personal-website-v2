@@ -255,7 +255,7 @@ a
 }
 .about__social-icon
 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin: 0 var(--mb-1);
 }
 .about__social-icon:hover
@@ -507,4 +507,11 @@ a
         width: 500px;
         right: 24%;
     }
+}
+
+@media (prefers-color-scheme: dark) {
+   :root {
+       --body-bg: #000000;
+       --body-color: #FFFFFF;
+   }
 }
