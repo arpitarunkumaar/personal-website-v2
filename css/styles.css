@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 :root
 {
@@ -10,7 +11,7 @@
 /* ===== COLORS ===== */
 :root
 {
-    --first-color: #5361FF;
+    --first-color: #027888;
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -20,6 +21,7 @@
 :root
 {   
     --body-font: 'Montserrat', sans-serif;
+    --heading-font: 'Poppins', sans-serif;
     --big-font-size: 6.25rem;
     --h2-font-size: 1.25rem;
     --normal-font-size: .938rem;
@@ -62,7 +64,7 @@ html
 body
 {
     margin: var(--header-height) 0 0 0;
-    font-family: var(--body-font);
+    font-family: var(--header-font);
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     color: var(--text-color);
@@ -509,9 +511,3 @@ a
     }
 }
 
-@media (prefers-color-scheme: dark) {
-   :root {
-       --body-bg: #000000;
-       --body-color: #FFFFFF;
-   }
-}
